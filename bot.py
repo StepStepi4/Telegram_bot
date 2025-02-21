@@ -16,7 +16,6 @@ async def group_message(message: types.Message):
         keyboard.add(button)
 
         await message.reply("SkillHUB", reply_markup=keyboard)
-
 if __name__ == "__main__":
     executor.start_polling(dp, skip_updates=True)
      git add requirements.txt
