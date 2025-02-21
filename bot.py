@@ -19,3 +19,6 @@ async def group_message(message: types.Message):
 
 if __name__ == "__main__":
     executor.start_polling(dp, skip_updates=True)
+     git add requirements.txt
+git commit -m "Добавлен файл requirements.txt"
+git push origin main
